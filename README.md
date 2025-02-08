@@ -1,5 +1,5 @@
 # Realtime-Socket-Streaming-and-Sentiment-Analysis-on-Yelp-Dataset
- We built a scalable ETL pipeline using AWS S3, Glue, Athena, SageMaker, and Kafka, Spark for sentiment analysis & real-time processing. Applied ML, LSH, Bloom Filters, and K-Anonymity for insights & privacy. Huge learning in Big Data & Cloud!  #AI #BigData #AWS #ML
+ We built a scalable ETL pipeline using AWS S3, Glue, Athena, SageMaker, and Kafka, Spark for sentiment analysis & real-time processing. Applied ML, LSH, Bloom Filters, and K-Anonymity for insights & privacy. Huge learning in Big Data & Cloud! 
 
 ##  Overview
 This project focuses on developing a scalable and efficient data processing pipeline to analyze Yelp business, review, and tip data using AWS cloud services. The pipeline integrates AWS S3, AWS Glue, AWS Athena, and AWS SageMaker to process large-scale unstructured data and perform sentiment analysis.
