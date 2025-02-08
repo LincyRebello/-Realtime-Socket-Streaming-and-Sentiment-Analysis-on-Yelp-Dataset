@@ -1,58 +1,30 @@
-# Realtime-Socket-Streaming-on-Yelp-Dataset
+# Realtime-Socket-Streaming-and-Sentiment-Analysis-on-Yelp-Dataset
+ We built a scalable ETL pipeline using AWS S3, Glue, Athena, SageMaker, and Kafka, Spark for sentiment analysis & real-time processing. Applied ML, LSH, Bloom Filters, and K-Anonymity for insights & privacy. Huge learning in Big Data & Cloud!  #AI #BigData #AWS #ML
 
-Welcome to the repository for the **Realtime-Socket-Streaming-on-Yelp-Dataset Project**, a comprehensive exploration into advanced data processing, analysis, and visualization techniques leveraging cutting-edge technologies and frameworks.
+##  Overview
+This project focuses on developing a scalable and efficient data processing pipeline to analyze Yelp business, review, and tip data using AWS cloud services. The pipeline integrates AWS S3, AWS Glue, AWS Athena, and AWS SageMaker to process large-scale unstructured data and perform sentiment analysis.
 
-## Overview
+##  Tech Stack
+- **Cloud Services:** AWS S3, AWS Glue, AWS Athena, AWS SageMaker
+- **Big Data Processing:** Apache Spark, PySpark, Kafka
+- **Machine Learning:** Logistic Regression, TF-IDF Vectorization
+- **Streaming Algorithms:** Bloom Filter, Locality Sensitive Hashing (LSH)
+- **Privacy Techniques:** K-Anonymity, Differential Privacy
 
-This project delves into the methodologies and tools used for analyzing large datasets, extracting meaningful insights, and presenting them in an actionable format. It was conducted as part of a final academic project, emphasizing practical implementation and theoretical understanding.
+##  System Architecture
+The project evolved through two architectures:
+1. **Initial Approach:** Implemented TCP/IP socket streaming, Apache Spark, Kafka, and OpenAI’s LLM API for real-time sentiment analysis.
+2. **Optimized AWS-Based Approach:** Migrated to AWS for scalable ETL processing and machine learning model training.
 
-## Objectives
+## Key Features
+- **Data Streaming:** Implemented real-time streaming using Kafka and Spark Streaming.
+- **ETL Pipeline:** Transformed raw JSON data into Parquet format for efficient querying.
+- **Sentiment Analysis:** Applied Logistic Regression and TF-IDF vectorization for text classification.
+- **Advanced Querying:** Used AWS Athena to derive business insights through complex SQL queries.
+- **Privacy-Preserving Techniques:** Implemented K-Anonymity and Differential Privacy to protect user data.
 
-- **Analyze** large datasets to uncover trends, patterns, and anomalies.
-- **Implement** efficient big data processing workflows using modern tools.
-- **Visualize** data insights through intuitive and impactful dashboards.
-
-## Features
-
-- End-to-end data pipeline setup
-- Scalable processing of structured and unstructured data
-- Advanced visualization using interactive tools
-- Integration with cloud platforms for enhanced performance
-
-## Technologies Used
-
-The following technologies and frameworks were utilized in this project:
-
-- **Big Data Frameworks:** Apache Hadoop, Apache Spark
-- **Programming Languages:** Python, Java
-- **Visualization Tools:** Tableau, Power BI, Matplotlib, Seaborn
-- **Data Storage:** MongoDB, HDFS, SQL Databases
-- **Cloud Platforms:** AWS, Google Cloud
-
-## Data Pipeline
-
-1. **Data Ingestion:**
-   - Collected raw data from multiple sources, including APIs, file systems, and streaming platforms.
-
-2. **Data Cleaning and Transformation:**
-   - Applied preprocessing techniques to handle missing values, inconsistencies, and noise.
-   - Transformed data to a suitable format for analysis.
-
-3. **Data Storage:**
-   - Stored processed data in distributed systems for scalable querying and retrieval.
-
-4. **Data Analysis:**
-   - Performed exploratory data analysis (EDA) to understand the dataset.
-   - Applied machine learning algorithms for predictive insights.
-
-5. **Visualization:**
-   - Developed dashboards and reports to present findings effectively.
-
-## Key Results
-
-- Discovered actionable insights that led to a 20% improvement in operational efficiency.
-- Created a real-time monitoring dashboard used by stakeholders to track key metrics.
-- Demonstrated scalability by processing datasets exceeding 1TB in size.
-
-
-
+## Results & Insights
+- Improved data querying performance using Parquet format.
+- Conducted sentiment analysis with 79% accuracy.
+- Used streaming algorithms to efficiently process large-scale Yelp data.
+- Leveraged AWS services to reduce cost and improve scalability.
